@@ -21,7 +21,7 @@ throws   ServletException,   IOException
     result   =   calcularRes(num1,num2,operacion);
 
     out.println("<html>");
-    out.println("<head><title>.:CalculadoraServlet:.</title></head>");
+    out.println("<head><title>CalculadoraServlet</title></head>");
     out.println("<body>");
     out.println("<h1><center>El resultado es</center></h1>");
     out.println("<h2>   <b><center>"+  result   +"</center></b></h2>");
